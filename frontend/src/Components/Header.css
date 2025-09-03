@@ -1,0 +1,34 @@
+.header {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #76bdd5;
+    color: white;
+    text-align: center;
+    top: 0;
+}
+
+.header > h1 {
+    font-size: 2em;
+    margin-left: 10%;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.nav-links {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 25%;
+}
+
+.nav-links > button {
+    border-radius: 0;
+    background: none;
+    color: white;
+}
+
+.nav-links > button:hover {
+    border: 2px solid white;
+}

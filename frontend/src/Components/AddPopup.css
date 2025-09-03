@@ -1,0 +1,13 @@
+.add-popup {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    background-color: #183455;
+    border-radius: 10px;
+}
+
+.add-popup > button {
+    background-color: transparent;
+    color: white;
+}

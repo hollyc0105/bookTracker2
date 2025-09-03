@@ -1,0 +1,49 @@
+.update-popup {
+    position: fixed;
+    z-index: 10;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #183455;
+    border-radius: 5px;
+    width: 25vw;
+    height: 30vh;
+    color: white;
+}
+
+.update-popup > h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.submit-progress {
+    color: #183455;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-container > input {
+    height: 25%;
+    margin-right: 1vw;
+    align-self: center;
+}
+
+.close-button {
+    background-color: transparent;
+    border-radius: 50%;
+    color: white;
+    aspect-ratio: 1;
+    width: 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 0 0 auto;
+}
