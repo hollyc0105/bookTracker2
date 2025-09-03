@@ -44,7 +44,7 @@ const Login = () => {
             setCurrentUser(data[0].user_id)
             console.log("test")
             console.log(data)
-            navigate("/")
+            navigate("/home")
         } catch (error) {
             console.error("Failed to login")
         }
